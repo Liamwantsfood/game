@@ -6,6 +6,7 @@ public class Panel extends JPanel{
     ArrayList<Ball> balls = new ArrayList<Ball>();
     public Panel () {
         balls.add(new Ball(10,10,20,10,10));
+        setBackground(Color.RED);
     }
 
 
