@@ -5,14 +5,22 @@ import java.awt.Graphics;
 public class Ball {
     private int x,y,size,xSpeed,ySpeed;
     public Color color;
-    public Ball(int x,int y,int size,int xSpeed,int ySpeed) {
-        this.x = x;
-        this.y = y;
-        this.size = size;
-        this.xSpeed = xSpeed;
-        this.ySpeed = ySpeed;
+    public Ball() {
     }
 
+
+    public void createBall() {
+        int spawn = (int)(Math.random()*4)+1;
+        if (spawn == 1) {
+
+        } else if (spawn == 2) {
+
+        } else if (spawn == 3) {
+
+        } else {
+
+        }
+    }
     public void drawBall(Graphics g) {
         g.fillOval(x,y,size,size);
         g.setColor(color);

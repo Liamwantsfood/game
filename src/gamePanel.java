@@ -19,7 +19,7 @@ public class gamePanel extends JPanel{
         } catch (Exception e) {
             System.out.println(e);
         }
-        balls.add(new Ball((int)(Math.random()*480)+10,(int)(Math.random()*480)+10,(int)(Math.random()*50)+10,2,2));
+       // balls.add(new Ball((int)(Math.random()*480)+10,(int)(Math.random()*480)+10,(int)(Math.random()*50)+10,2,2));
     }
     }
 
